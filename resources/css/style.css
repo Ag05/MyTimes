@@ -1,0 +1,12 @@
+/*Header Section*/
+
+.header {
+  /*Display*/
+  display: flex;
+  
+
+  /*Font Editing*/
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
