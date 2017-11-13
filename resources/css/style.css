@@ -3,10 +3,28 @@
 .header {
   /*Display*/
   display: flex;
-  
+  height: 50px;
+  width: 1500px;
+  justify-content: flex-start;
+
 
   /*Font Editing*/
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+
+  /*Box Model*/
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.header h5{
+  margin-left: 10px;
+  margin-right: 100px;
+  color: MediumAquamarine;
+}
+
+.header span a{
+  padding: 5px 10px;
+  margin: 10px;
 }
